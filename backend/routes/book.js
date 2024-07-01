@@ -6,7 +6,6 @@ const {
   getBookById,
 } = require('../controllers/bookController');
 
-// Routes
 router.get('/', getAllBooks);
 router.get('/:book_id', getBookById);
 
